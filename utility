@@ -1,0 +1,61 @@
+<aside>
+    <div class="container-md">
+        <h2 style="color: yellow">Populer</h2>
+        <p style="color: white"> Ini adalah Bagian Populer dari situs Top-Up kami</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            <div class="col" style="max-width: 250px;">
+                <div class="card" style="height: 280px;">
+                <img src="../assets/images/content/gi.jpeg" class="card-img-top img-fluid rounded" style="max-height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Genshin Impact</h5>
+                </div>
+                </div>
+            </div>
+            
+            <div class="col" style="max-width: 250px;">
+                <div class="card" style="height: 280px;">
+                <img src="../assets/images/content/ml.jpeg" class="card-img-top img-fluid rounded" style="max-height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mobile Legends</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<!-- semua Game -->
+<aside>
+  <div class="container-md mt-5">
+      <h2 style="color:wheat ">Semua Game</h2>
+      <p style="color: white">Ini adalah Bagian semua game </p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" style="max-width: 250px;">
+        <div class="card" style="height: 280px;">
+          <img src="../assets/images/content/gi.jpeg" class="card-img-top img-fluid rounded" style="max-height: 200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Genshin Impact</h5>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col" style="max-width: 250px;">
+        <div class="card" style="height: 280px;">
+          <img src="../assets/images/content/ml.jpeg" class="card-img-top img-fluid rounded" style="max-height: 200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mobile Legends</h5>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col" style="max-width: 250px;">
+        <div class="card" style="height: 280px;">
+          <img src="../assets/images/content/pubg.jpeg" class="card-img-top img-fluid rounded" style="max-height: 200px; object-fit: cover;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pubg Mobile</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>

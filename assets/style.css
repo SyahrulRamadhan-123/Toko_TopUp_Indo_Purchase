@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(34, 3, 83);
+}
+
+/* .bg-succesz{
+    background-color: rgb(214, 95, 194);
+} */
+
+.slider{
+width: 500px;
+height: 300px;
+overflow: hidden;
+position: relative;
+}
+
+#sliders{
+    display: flex;
+    width: calc(500px * 2);
+    transition: transform 1s ease-in-out;
+}
+
+#sliders{
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.hover-rise:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 13px rgba(0,0,0,0.2);
+}
+
