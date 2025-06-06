@@ -9,18 +9,18 @@ $password = $_POST['password'];
 //validasi
 if($username=='' && $password ==''){
     $_SESSION['error_global'] = 'Saat Mengisi Form Login, Harap Isi Semuanya';
-    header('location:../login.php');
+    header('location: ../../index.php?page=login');
     exit();
 }
 
 if($username ==''){
     $_SESSION['error_username'] = 'Username Tidak Boleh Kosong';
-    header('location:../login.php');
+    header('location: ../../index.php?page=login');
     exit();
 }
 if($password ==''){
     $_SESSION['error_password'] = 'password Tidak Boleh Kosong';
-    header('location:../login.php');
+    header('location: ../../index.php?page=login');
     exit();
 }
 
@@ -32,11 +32,11 @@ if(mysqli_num_rows($result) === 1){
     $_SESSION['is_login'] = true;
     $_SESSION['username'] = $data['username'];
     $_SESSION['succes_db'] =  $username . ' Berhasil Login';
-    header('location: ../../app/dashboard.php');
+    header('location: ../../index.php?page=view');
     exit();
 }else{
     $_SESSION['error_db'] = 'username & password kamu salah';
-    header('location: ../login.php');
+    header('location: ../../index.php?page=login');
     exit();
 }
 

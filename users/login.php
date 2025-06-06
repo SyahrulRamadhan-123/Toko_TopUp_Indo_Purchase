@@ -1,7 +1,6 @@
 <?php
-    session_start();
     if(isset($_SESSION['is_login'])){
-        header('location:../app/dashboard.php');
+        header('location:index.php?page=login');
     }
 ?>
 
@@ -14,8 +13,8 @@
     <title>Login</title>
 </head>
 <body>
-    <a href="../index.php">balik</a>
-<form action="proses/login_proses.php" method="POST">
+    <a href="index.php?page=home">balik</a>
+<form action="users/proses/login_proses.php" method="POST">
     <h2>SIlahkan isi Form Berikut</h2>
     <?php
         if(isset($_SESSION['error_global'])){

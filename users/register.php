@@ -1,7 +1,6 @@
 <?php
-    session_start();
     if(isset($_SESSION['is_login'])){
-        header('location:../app/dashboard.php');
+        header('location:../index.php?page=view');
     }
 
 ?>
@@ -16,7 +15,7 @@
 </head>
 <body>  
     
-<form action="proses/register_proses.php" method="POST">
+<form action="users/proses/register_proses.php" method="POST">
     <h2>SIlahkan Melakukan Registrasi Akun</h2>
     <?php
     if(isset($_SESSION['error_global'])){
@@ -46,6 +45,7 @@
     <label for="konfirmasi_password">Confirm Password</label>
     <input type="password" name="konfirmasi_password"><br>
     <button type="submit">Login</button>
+    <a href="index.php?page=login">Login ?</a>
 </form>
 
 </body>
