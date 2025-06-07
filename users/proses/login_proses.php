@@ -31,9 +31,16 @@ if(mysqli_num_rows($result) === 1){
     $data = mysqli_fetch_assoc($result);
     $_SESSION['is_login'] = true;
     $_SESSION['username'] = $data['username'];
-    $_SESSION['succes_db'] =  $username . ' Berhasil Login';
-    header('location: ../../index.php?page=view');
-    exit();
+    $role = $data['role'];
+    if($role==='admin'){
+        $_SESSION['succes_db'] =  $username . ' Berhasil Login';
+        header('location: ../../index.php?page=dashboard');
+        exit();
+    }else{
+        $_SESSION['succes_db'] =  $username . ' Berhasil Login';
+        header('location: ../../index.php?page=view');
+        exit();
+    };
 }else{
     $_SESSION['error_db'] = 'username & password kamu salah';
     header('location: ../../index.php?page=login');

@@ -67,36 +67,34 @@ if(!isset($_SESSION['is_login'])){
             </nav>
         </div>
     </aside>
-    
-<aside class="m-5 text-center"  style="color: white">
-    <h1 class="fs-1 text-center">Selamat Datang Di Toko Top-Up</h1>
-    <p>Selamat Datang Di halaman Top-Up Mas Gondrong Disini Tersedia Berbagai macam Game Top-Up</p>
-</aside>
-
+        <aside class="m-5 text-center"  style="color: white">
+            <h1 class="fs-1 text-center">Selamat Datang Di Toko Top-Up</h1>
+            <p>Selamat Datang Di halaman Top-Up Mas Gondrong Disini Tersedia Berbagai macam Game Top-Up</p>
+        </aside>
 <!-- populer  -->
-<div class="container">
-    <div class="row">
-        <div class="populer-item">
-            <h2 class="text-warning" id="populer">Populer</h2>
+        <div class="container">
+            <div class="row">
+                <div class="populer-item">
+                    <h2 class="text-warning" id="populer">Populer</h2>
+                </div>
+                    <div class="col-2">
+                        <div class="card hover-effect hover-rise">
+                            <button onclick="location.href='index.php?page=gi'" class="btn btn-warning d-flex align-items-center" >
+                                <img src="assets/images/content/gi.jpeg" alt="Ikon" style="width: 80px; height: 50px;" class="object-fit-fill border rounded">
+                                <p>Genshin Impact</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card hover-effect hover-rise">
+                            <button onclick="location.href='index.php?page=mlbb'" class="btn btn-warning d-flex align-items-center">
+                                <img src="assets/images/content/ml.jpeg" alt="Ikon" style="width: 80px; height: 50px;" class="object-fit-fill border rounded">
+                                <p>Mobile Legends</p>
+                            </button>
+                        </div>
+                    </div>
+            </div>
         </div>
-            <div class="col-2">
-                <div class="card hover-effect hover-rise">
-                    <button onclick="location.href='index.php?page=gi'" class="btn btn-warning d-flex align-items-center" >
-                        <img src="assets/images/content/gi.jpeg" alt="Ikon" style="width: 80px; height: 50px;" class="object-fit-fill border rounded">
-                        <p>Genshin Impact</p>
-                    </button>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="card hover-effect hover-rise">
-                    <button onclick="location.href='index.php?page=mlbb'" class="btn btn-warning d-flex align-items-center">
-                        <img src="assets/images/content/ml.jpeg" alt="Ikon" style="width: 80px; height: 50px;" class="object-fit-fill border rounded">
-                        <p>Mobile Legends</p>
-                    </button>
-                </div>
-            </div>
-    </div>
-</div>
 
 
 <aside>
