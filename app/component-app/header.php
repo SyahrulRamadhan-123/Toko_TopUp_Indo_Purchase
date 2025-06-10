@@ -1,5 +1,4 @@
-<aside>
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
         <img src="assets/images/navbar/pp.jpeg" alt="logo" width="30px" height="30px">
@@ -13,4 +12,3 @@
         </div>
     </div>
     </nav>
-</aside>
