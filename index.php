@@ -18,6 +18,10 @@ switch($page){
     case 'pubg' : include 'app/page/pubg.php'; break;
     case 'dashboard' : include 'app/dashboard.php'; break;
     case 'view' : include 'app/view.php'; break;
+    case 'data_rekapan' : include 'app/page-dashboard/data_rekapan.php'; break;
+    case 'data_riwayat' : include 'app/page-dashboard/data_riwayat_transaksi.php'; break;
+    case 'input_item_game' : include 'app/page-dashboard/input_item_game.php'; break;
+    case 'kelola_data_game' : include 'app/page-dashboard/kelola_data_game.php'; break;
     
     case 'login' : include 'users/login.php'; break;
     case 'register' : include 'users/register.php'; break;

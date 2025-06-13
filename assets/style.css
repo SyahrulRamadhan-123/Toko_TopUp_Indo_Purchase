@@ -33,4 +33,6 @@ position: relative;
   --bs-accordion-border-color: transparent !important;
 }
 
-
+#accordion-bg-solid{
+    background-color: pink;
+}
