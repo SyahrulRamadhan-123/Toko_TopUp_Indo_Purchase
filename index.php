@@ -22,6 +22,7 @@ switch($page){
     case 'data_riwayat' : include 'app/page-dashboard/data_riwayat_transaksi.php'; break;
     case 'input_item_game' : include 'app/page-dashboard/input_item_game.php'; break;
     case 'kelola_data_game' : include 'app/page-dashboard/kelola_data_game.php'; break;
+    case 'edit' : include 'app/page-dashboard/edit.php'; break;
     
     case 'login' : include 'users/login.php'; break;
     case 'register' : include 'users/register.php'; break;

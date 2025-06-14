@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php?page=dashboard">
             <img src="assets/images/navbar/pp.jpeg" alt="logo" width="30" height="30" class="rounded-circle me-2">
             Mass Gondrong
         </a>

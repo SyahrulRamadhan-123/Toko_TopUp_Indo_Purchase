@@ -36,3 +36,11 @@ position: relative;
 #accordion-bg-solid{
     background-color: pink;
 }
+
+/* buat background content  */
+.bg-genshin{
+    background-image: url('images/content/bg-2.jpeg');
+}
+.color-text-genshin{
+    color: rgb(255, 17, 223);
+}
