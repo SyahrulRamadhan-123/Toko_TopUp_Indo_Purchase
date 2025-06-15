@@ -29,13 +29,36 @@ position: relative;
     box-shadow: 0 13px rgba(0,0,0,0.2);
 }
 
-.accordion {
+/* .accordion {
   --bs-accordion-border-color: transparent !important;
+} */
+
+/* #accordion-bg-solid{
+    background-color: pink;
+} */
+
+
+.accordion, 
+.accordion-item,
+.accordion-button,
+.accordion-body {
+  width: 100%;
+  box-sizing: border-box;
 }
 
-#accordion-bg-solid{
-    background-color: pink;
+.accordion .accordion-body ul li a {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+
+
+
 
 /* buat background content  */
 .bg-genshin{

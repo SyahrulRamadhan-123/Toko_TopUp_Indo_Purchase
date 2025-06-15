@@ -19,7 +19,7 @@ switch($page){
     case 'dashboard' : include 'app/dashboard.php'; break;
     case 'view' : include 'app/view.php'; break;
     case 'data_rekapan' : include 'app/page-dashboard/data_rekapan.php'; break;
-    case 'data_riwayat' : include 'app/page-dashboard/data_riwayat_transaksi.php'; break;
+    case 'data_riwayat' : include 'app/page-dashboard/data_riwayat.php'; break;
     case 'input_item_game' : include 'app/page-dashboard/input_item_game.php'; break;
     case 'kelola_data_game' : include 'app/page-dashboard/kelola_data_game.php'; break;
     case 'edit' : include 'app/page-dashboard/edit.php'; break;

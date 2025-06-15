@@ -26,12 +26,6 @@ if(!isset($_SESSION['is_login'])){
     <!-- Slider-images -->
      <aside>
     <div class="img-fluid mb-5" style="padding-top: 70px;">
-        <?php
-            if(isset($_SESSION['succes_db'])){
-                echo "<p style= 'color: green'>" . $_SESSION['succes_db'] . "</p>";
-                unset($_SESSION['succes_db']);
-                }
-        ?>
         <div class="slider rounded mx-auto d-block">
             <div id="sliders">
                 <img src="assets/images/image-slider/gi.jpeg" alt="images 1" width="500" height="300">
@@ -138,7 +132,7 @@ if(!isset($_SESSION['is_login'])){
     <div class="row">
         <div class="col-4 col-6 ">
             <div class="content text-white">
-                <h2>About Website Top-Up</h2>
+                <h2 class="text-warning">About Website Top-Up</h2>
                 <p class="text-break">ini adalah sebuah halaman Website Yang menyediakan layanan berbagai macam game dengan metode transaksi teraman dan termudah tentunya, dan layanan kami tidak hanya menjual game tentunya kami juga menyediakan mitra layanan kerja sama.
                 </p>
             </div>
